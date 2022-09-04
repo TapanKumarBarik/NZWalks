@@ -1,11 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "0xuALkQ5QPo24Iq6TfZTPfPWclF1NIctLSzkoGtF0+9m7x5msVlTYWDAM1ca3QZ2YeYLGtW3siTSP7+BPhMfoQ==",
+  "dgSpecHash": "kZYhNUtgtWPLisyoNKnU52oVCb/5jmc2ZJHIR7Qn3pGvIVSNA8wKUdXSNJIDq3zgstsk5HtWDFpc4g1+P8X95g==",
   "success": true,
   "projectFilePath": "C:\\Udemy\\net\\Build ASP.NET Core Web API - Scratch To Finish ( .NET 6)\\NZWalks\\NZWalk\\NZWalk.API\\NZWalk.API.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Tapan Barik\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
+    "C:\\Users\\Tapan Barik\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
     "C:\\Users\\Tapan Barik\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
-    "C:\\Users\\Tapan Barik\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
+    "C:\\Users\\Tapan Barik\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\Tapan Barik\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",
     "C:\\Users\\Tapan Barik\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\2.1.1\\microsoft.data.sqlclient.sni.runtime.2.1.1.nupkg.sha512",
     "C:\\Users\\Tapan Barik\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.8\\microsoft.entityframeworkcore.6.0.8.nupkg.sha512",
