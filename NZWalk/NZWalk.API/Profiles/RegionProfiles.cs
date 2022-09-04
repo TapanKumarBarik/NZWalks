@@ -9,7 +9,7 @@ namespace NZWalk.API.Profiles
         public RegionProfiles()
         {
             CreateMap<Region, RegionDTO>();
-            CreateMap<RegionDTO, Region>();
+           
         }
     }
 }
