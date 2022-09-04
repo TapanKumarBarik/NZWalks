@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "RrScH23hVSpaeIhLqqvtJMdj+6mUEpmvs5boOlChW4rlUgLGb2hManF4phdXUTD6dKe8o4Bd1WPF96TbdCkNNw==",
+  "success": true,
+  "projectFilePath": "C:\\Udemy\\net\\Build ASP.NET Core Web API - Scratch To Finish ( .NET 6)\\NZWalks\\NZWalk\\NZWalk.API\\NZWalk.API.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Tapan Barik\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\Tapan Barik\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\Tapan Barik\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "C:\\Users\\Tapan Barik\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "C:\\Users\\Tapan Barik\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "C:\\Users\\Tapan Barik\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+  ],
+  "logs": []
+}
