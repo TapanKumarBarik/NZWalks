@@ -61,3 +61,5 @@ C:\Udemy\net\Build ASP.NET Core Web API - Scratch To Finish ( .NET 6)\NZWalks\NZ
 C:\Udemy\net\Build ASP.NET Core Web API - Scratch To Finish ( .NET 6)\NZWalks\NZWalk\NZWalk.API\obj\Debug\net6.0\NZWalk.API.pdb
 C:\Udemy\net\Build ASP.NET Core Web API - Scratch To Finish ( .NET 6)\NZWalks\NZWalk\NZWalk.API\obj\Debug\net6.0\NZWalk.API.genruntimeconfig.cache
 C:\Udemy\net\Build ASP.NET Core Web API - Scratch To Finish ( .NET 6)\NZWalks\NZWalk\NZWalk.API\obj\Debug\net6.0\ref\NZWalk.API.dll
+C:\Udemy\net\Build ASP.NET Core Web API - Scratch To Finish ( .NET 6)\NZWalks\NZWalk\NZWalk.API\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Udemy\net\Build ASP.NET Core Web API - Scratch To Finish ( .NET 6)\NZWalks\NZWalk\NZWalk.API\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll

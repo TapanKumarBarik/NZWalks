@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using NZWalk.API.Models.Domain;
@@ -9,6 +10,7 @@ namespace NZWalk.API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class WalkDifficultyController : ControllerBase
     {
         private readonly IWalkDifficulty walkDifficultyRepository;

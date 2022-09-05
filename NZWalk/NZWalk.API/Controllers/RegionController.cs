@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using NZWalk.API.Models.Domain;
@@ -10,6 +11,7 @@ namespace NZWalk.API.Controllers
     
     [ApiController]
     [Route("api/Region")]
+    
     public class RegionController : ControllerBase
     {
 
@@ -25,13 +27,16 @@ namespace NZWalk.API.Controllers
         }
 
         [HttpGet("/getAllRegions")]
+        [Authorize(Roles ="reader")]
         public async Task<IActionResult> getAllRegions()
         {
             var allRegions= await regionRepository.GetAllRegionAsync();
             var allRegionsDTO = mapper.Map<List<Region>>(allRegions);
             return Ok(allRegionsDTO);
         }
+       
         [HttpGet("/getRegionByID")]
+        [Authorize(Roles = "reader")]
         public async Task<IActionResult>getRegionByID(Guid guid)
         {
             var region = await regionRepository.GetRegionByIDAsync(guid);
@@ -41,6 +46,7 @@ namespace NZWalk.API.Controllers
 
         [HttpGet]
         [Route("{id:guid}")]
+        [Authorize(Roles = "reader")]
         public async Task<IActionResult>getRegionByIDAsync1(Guid id)
         {
             var region = await regionRepository.GetRegionByIDAsync(id);
@@ -53,8 +59,11 @@ namespace NZWalk.API.Controllers
         }
 
         [HttpPost]
+        [Authorize(Roles = "writer")]
         public async Task<IActionResult>addRegion(RegionDTO regionDTO)
         {
+
+
             var region = new Region
             {
                 Id = Guid.NewGuid(),
@@ -72,6 +81,7 @@ namespace NZWalk.API.Controllers
 
         [HttpDelete]
         [Route("{id:guid}")]
+        [Authorize(Roles = "writer")]
         public async Task<string>deleteRegionByID(Guid id)
         {
             var res=await regionRepository.DeleteRegionByIDAsync(id);
@@ -80,6 +90,7 @@ namespace NZWalk.API.Controllers
 
         [HttpPut]
         [Route("{id:guid}")]
+        [Authorize(Roles = "writer")]
         public async Task<IActionResult>updateRegionByID(Guid id,RegionDTO regionDTO)
         {
             var region = new Region
